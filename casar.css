@@ -1,0 +1,113 @@
+body{
+    margin:0;
+    background-image: url("imagem/fundo.svg");
+    font-family: 'Comfortaa', cursive;
+    background-size: cover;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+   
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(160, 33, 135, 0.703);
+    padding:50px;
+    width: 50%;
+    border-radius: 15px;
+    gap:10px;
+    margin-bottom: 15px;
+}
+.main h1{
+    font-size: 50px;
+    margin: 0;
+}
+.botaocontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap:10px;
+}
+.botaosim{
+    font-family: 'Comfortaa', cursive;
+    color:white;
+    background: rgba(255, 49, 155, 0.774);
+    font-size: 30px;
+    padding:10px;
+    border: 2px solid pink;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.botaosim:hover{
+    transform: scale(1.05);
+    background: rgba(184, 31, 110, 0.774);
+    cursor: pointer;
+}
+.botaonao{
+    font-family: 'Comfortaa', cursive;
+    color:white;
+    background: rgba(255, 49, 155, 0.774);
+    font-size: 30px;
+    padding:10px;
+    border: 2px solid pink;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    transition-duration: 0.2s;
+}
+.botaonao:hover{
+    cursor:not-allowed;
+    opacity:0;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.coracao{
+    position: absolute;
+    right:80%;
+    width: 100%;
+    height: auto;
+}
+.coracao2{
+    position: absolute;
+    left:70%;
+    top:50%;
+    width: 100%;
+    height: auto;
+}
+.coracao3{
+    position: absolute;
+    left:70%;
+    top:80%;
+    width: 100%;
+    height: auto;
+}
+.coracao4{
+    position: absolute;
+    left:20%;
+    top:20%;
+    width: 100%;
+    height: auto;
+}
+.coracao5{
+    position: absolute;
+    left:15%;
+    top:90%;
+    width: 100%;
+    height: auto;
+}
